@@ -1,0 +1,2 @@
+# IZU
+Základy umelej inteligencie
