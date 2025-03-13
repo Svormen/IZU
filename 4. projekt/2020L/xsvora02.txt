@@ -1,0 +1,323 @@
+########################
+=====Zadanie c. 394=====
+
+Body:
+   1. Bod:  [0, -1, -2]
+   2. Bod:  [-3, -1, -3]
+   3. Bod:  [1, -3, 2]
+   4. Bod:  [-2, -2, 2]
+   5. Bod:  [1, 2, -4]
+   6. Bod:  [0, -4, 3]
+   7. Bod:  [1, 0, -3]
+   8. Bod:  [-3, 0, 0]
+   9. Bod:  [-2, 2, -4]
+   10. Bod: [-2, 4, 3]
+   11. Bod: [3, -2, 4]
+   12. Bod: [2, -5, -4]
+----------------------
+Stredové body:
+   1. bod:  [-2, 4, 3]
+   2. bod:  [0, -1, -2]
+   3. bod:  [-3, -1, -3]
+
+###############################################
+=================PRVÁ ITERÁCIA=================
+
+1. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.348469
+     Vzdialenosť od 2. stredového bodu: 0.000000
+     Vzdialenosť od 3. stredového bodu: 3.162278
+2. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 3.162278
+     Vzdialenosť od 3. stredového bodu: 0.000000
+3. Bod:
+     Vzdialenosť od 1 stredového bodu: 7.681146
+     Vzdialenosť od 2 stredového bodu: 4.582576
+     Vzdialenosť od 3 stredového bodu: 6.708204
+4. Bod:
+     Vzdialenosť od 1. stredového bodu: 6.082763
+     Vzdialenosť od 2. stredového bodu: 4.582576
+     Vzdialenosť od 3. stredového bodu: 5.196152
+5. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 3.741657
+     Vzdialenosť od 3. stredového bodu: 5.099020
+6. Bod:
+     Vzdialenosť od 1. stredového bodu: 8.246211
+     Vzdialenosť od 2. stredového bodu: 5.830952
+     Vzdialenosť od 3. stredového bodu: 7.348469
+7. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.810250
+     Vzdialenosť od 2. stredového bodu: 1.732051
+     Vzdialenosť od 3. stredového bodu: 4.123106
+8. Bod:
+     Vzdialenosť od 1. stredového bodu: 5.099020
+     Vzdialenosť od 2. stredového bodu: 3.741657
+     Vzdialenosť od 3. stredového bodu: 3.162278
+9. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.280110
+     Vzdialenosť od 2. stredového bodu: 4.123106
+     Vzdialenosť od 3. stredového bodu: 3.316625
+10. Bod:
+     Vzdialenosť od 1. stredového bodu: 0.000000
+     Vzdialenosť od 2. stredového bodu: 7.348469
+     Vzdialenosť od 3. stredového bodu: 7.874008
+11. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 6.782330
+     Vzdialenosť od 3. stredového bodu: 9.273618
+12. Bod:
+     Vzdialenosť od 1. stredového bodu: 12.083046
+     Vzdialenosť od 2. stredového bodu: 4.898979
+     Vzdialenosť od 3. stredového bodu: 6.480741
+-----------------------------------------------
+1. Skupina:
+  10. Bod:  [-2, 4, 3]
+
+2. Skupina:
+  1. Bod:   [0, -1, -2]
+  3. Bod:   [1, -3, 2]
+  4. Bod:   [-2, -2, 2]
+  5. Bod:   [1, 2, -4]
+  6. Bod:   [0, -4, 3]
+  7. Bod:   [1, 0, -3]
+  11. Bod:  [3, -2, 4]
+  12. Bod:  [2, -5, -4]
+
+3. Skupina:
+  2. Bod:   [-3, -1, -3]
+  8. Bod:   [-3, 0, 0]
+  9. Bod:   [-2, 2, -4]
+-----------------------------------------------
+Stredové body:
+   1 Bod: [-2.00, 4.00, 3.00]
+   2 Bod: [0.75, -1.875, -0.25]
+   3 Bod: [-2.6666666666666665, 0.3333333333333333, -2.3333333333333335]
+
+###############################################
+=================DRUHÁ ITERÁCIA================
+
+1. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.348469
+     Vzdialenosť od 2. stredového bodu: 2.095382
+     Vzdialenosť od 3. stredového bodu: 3.000000
+2. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 4.731873
+     Vzdialenosť od 3. stredového bodu: 1.527525
+3. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.681146
+     Vzdialenosť od 2. stredového bodu: 2.527969
+     Vzdialenosť od 3. stredového bodu: 6.582806
+4. Bod:
+     Vzdialenosť od 1. stredového bodu: 6.082763
+     Vzdialenosť od 2. stredového bodu: 3.555366
+     Vzdialenosť od 3. stredového bodu: 4.966555
+5. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 5.398206
+     Vzdialenosť od 3. stredového bodu: 4.358899
+6. Bod:
+     Vzdialenosť od 1. stredového bodu: 8.246211
+     Vzdialenosť od 2. stredového bodu: 3.954823
+     Vzdialenosť od 3. stredového bodu: 7.371115
+7. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.810250
+     Vzdialenosť od 2. stredového bodu: 3.337757
+     Vzdialenosť od 3. stredového bodu: 3.741657
+8. Bod:
+     Vzdialenosť od 1. stredového bodu: 5.099020
+     Vzdialenosť od 2. stredového bodu: 4.200074
+     Vzdialenosť od 3. stredového bodu: 2.380476
+9. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.280110
+     Vzdialenosť od 2. stredového bodu: 6.053150
+     Vzdialenosť od 3. stredového bodu: 2.449490
+10. Bod:
+     Vzdialenosť od 1. stredového bodu: 0.000000
+     Vzdialenosť od 2. stredového bodu: 7.255386
+     Vzdialenosť od 3. stredového bodu: 6.506407
+11. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 4.810470
+     Vzdialenosť od 3. stredového bodu: 8.812869
+12. Bod:
+     Vzdialenosť od 1. stredového bodu: 12.083046
+     Vzdialenosť od 2. stredového bodu: 5.038911
+     Vzdialenosť od 3. stredového bodu: 7.280110
+-----------------------------------------------
+1. Skupina:
+  10. Bod:  [-2, 4, 3]
+
+2. Skupina:
+  1. Bod:   [0, -1, -2]
+  3. Bod:   [1, -3, 2]
+  4. Bod:   [-2, -2, 2]
+  6. Bod:   [0, -4, 3]
+  7. Bod:   [1, 0, -3]
+  11. Bod:  [3, -2, 4]
+  12. Bod:  [2, -5, -4]
+
+3. Skupina:
+  2. Bod:   [-3, -1, -3]
+  5. Bod:   [1, 2, -4]
+  8. Bod:   [-3, 0, 0]
+  9. Bod:   [-2, 2, -4]
+-----------------------------------------------
+Stredové body:
+   1 Bod:  [-2.0, 4.0, 3.0]
+   2 Bod:  [0.7142857142857143, -2.4285714285714284, 0.2857142857142857]
+   3 Bod:  [-1.75, 0.75, -2.75]
+
+###############################################
+================TRETIA ITERÁCIA================
+
+1. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.348469
+     Vzdialenosť od 2. stredového bodu: 2.788460
+     Vzdialenosť od 3. stredového bodu: 2.586020
+2. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 5.160683
+     Vzdialenosť od 3. stredového bodu: 2.165064
+3. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.681146
+     Vzdialenosť od 2. stredového bodu: 1.829464
+     Vzdialenosť od 3. stredového bodu: 6.647368
+4. Bod:
+     Vzdialenosť od 1. stredového bodu: 6.082763
+     Vzdialenosť od 2. stredového bodu: 3.238795
+     Vzdialenosť od 3. stredového bodu: 5.494315
+5. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 6.169378
+     Vzdialenosť od 3. stredového bodu: 3.269174
+6. Bod:
+     Vzdialenosť od 1. stredového bodu: 8.246211
+     Vzdialenosť od 2. stredového bodu: 3.216666
+     Vzdialenosť od 3. stredového bodu: 7.660777
+7. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.810250
+     Vzdialenosť od 2. stredového bodu: 4.095792
+     Vzdialenosť od 3. stredového bodu: 2.861381
+8. Bod:
+     Vzdialenosť od 1. stredového bodu: 5.099020
+     Vzdialenosť od 2. stredového bodu: 4.446966
+     Vzdialenosť od 3. stredového bodu: 3.112475
+9. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.280110
+     Vzdialenosť od 2. stredového bodu: 6.734014
+     Vzdialenosť od 3. stredového bodu: 1.785357
+10. Bod:
+     Vzdialenosť od 1. stredového bodu: 0.000000
+     Vzdialenosť od 2. stredového bodu: 7.487404
+     Vzdialenosť od 3. stredového bodu: 6.609652
+11. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 4.382246
+     Vzdialenosť od 3. stredového bodu: 8.699856
+12. Bod:
+     Vzdialenosť od 1. stredového bodu: 12.083046
+     Vzdialenosť od 2. stredového bodu: 5.160683
+     Vzdialenosť od 3. stredového bodu: 6.977643
+-----------------------------------------------
+1. Skupina:
+  10. Bod:  [-2, 4, 3]
+
+2. Skupina:
+  3. Bod:   [1, -3, 2]
+  4. Bod:   [-2, -2, 2]
+  6. Bod:   [0, -4, 3]
+  11. Bod:  [3, -2, 4]
+  12. Bod:  [2, -5, -4]
+
+3. Skupina:
+  1. Bod:   [0, -1, -2]
+  2. Bod:   [-3, -1, -3]
+  5. Bod:   [1, 2, -4]
+  7. Bod:   [1, 0, -3]
+  8. Bod:   [-3, 0, 0]
+  9. Bod:   [-2, 2, -4]
+-----------------------------------------------
+Stredové body:
+   1 Bod:  [-2.0, 4.0, 3.0]
+   2 Bod:  [0.8, -3.2, 1.4]
+   3 Bod:  [-1.0, 0.3333333333333333, -2.6666666666666665]
+
+###############################################
+================ŠTVRTÁ ITERÁCIA================
+
+1. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.348469
+     Vzdialenosť od 2. stredového bodu: 4.127953
+     Vzdialenosť od 3. stredového bodu: 1.795055
+2. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 6.216108
+     Vzdialenosť od 3. stredového bodu: 2.426703
+3. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.681146
+     Vzdialenosť od 2. stredového bodu: 0.663325
+     Vzdialenosť od 3. stredového bodu: 6.073622
+4. Bod:
+     Vzdialenosť od 1. stredového bodu: 6.082763
+     Vzdialenosť od 2. stredového bodu: 3.104835
+     Vzdialenosť od 3. stredového bodu: 5.312459
+5. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 7.499333
+     Vzdialenosť od 3. stredového bodu: 2.924988
+6. Bod:
+     Vzdialenosť od 1. stredového bodu: 8.246211
+     Vzdialenosť od 2. stredového bodu: 1.959592
+     Vzdialenosť od 3. stredového bodu: 7.203394
+7. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.810250
+     Vzdialenosť od 2. stredového bodu: 5.444263
+     Vzdialenosť od 3. stredového bodu: 2.054805
+8. Bod:
+     Vzdialenosť od 1. stredového bodu: 5.099020
+     Vzdialenosť od 2. stredového bodu: 5.161395
+     Vzdialenosť od 3. stredového bodu: 3.349959
+9. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.280110
+     Vzdialenosť od 2. stredového bodu: 8.002500
+     Vzdialenosť od 3. stredového bodu: 2.357023
+10. Bod:
+     Vzdialenosť od 1. stredového bodu: 0.000000
+     Vzdialenosť od 2. stredového bodu: 7.889233
+     Vzdialenosť od 3. stredového bodu: 6.823163
+11. Bod:
+     Vzdialenosť od 1. stredového bodu: 7.874008
+     Vzdialenosť od 2. stredového bodu: 3.611094
+     Vzdialenosť od 3. stredového bodu: 8.117197
+12. Bod:
+     Vzdialenosť od 1. stredového bodu: 12.083046
+     Vzdialenosť od 2. stredového bodu: 5.817216
+     Vzdialenosť od 3. stredového bodu: 6.262765
+-----------------------------------------------
+1. Skupina:
+  10. Bod:  [-2, 4, 3]
+
+2. Skupina:
+  3. Bod:   [1, -3, 2]
+  4. Bod:   [-2, -2, 2]
+  6. Bod:   [0, -4, 3]
+  11. Bod:  [3, -2, 4]
+  12. Bod:  [2, -5, -4]
+
+3. Skupina:
+  1. Bod:   [0, -1, -2]
+  2. Bod:   [-3, -1, -3]
+  5. Bod:   [1, 2, -4]
+  7. Bod:   [1, 0, -3]
+  8. Bod:   [-3, 0, 0]
+  9. Bod:   [-2, 2, -4]
+
+##########################################################
+Skupiny sú zhodné, výsledné stredy:
+	1: [-2.0, 4.0, 3.0]
+	2: [0.8, -3.2, 1.4]
+	3: [-1.0, 0.3333333333333333, -2.6666666666666665]
+##########################################################
